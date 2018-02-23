@@ -28,23 +28,26 @@ p { /* format of all paragraphs */
 	font-family: helvetica;
 	padding-left: 16px;
 }
-/* cryptocurrency prices widget/dashboard */
+/* coinmarketcap widget script */
 .coinmarketcap-currency-widget {
  width: 25%;
  margin: 10px 1%;
  float: left;
 }
-fieldset /* formatting cryptocurrency widget/dashboard */
+fieldset /* coinmarketcap widget */
 {
-   width: 95%; /* width of the whole fieldset */
-   padding:20px; /* padding of fieldset */
-   
-   border:2px solid #4CAF50; /* fieldset border, change px value to change the thickness of the border */
-   /* border:5px solid #ccc; original code */ 
+width: 96%; /* width of the whole fieldset */
+padding: 15px; /* padding of fieldset */
+border:2px solid #4CAF50; /* fieldset border, change px value to change the thickness of the border */
+/* border:5px solid #ccc; original code */ 
 
 /* codes below are used to format the rounded corners of the fieldset border */
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 -khtml-border-radius: 10px;
 border-radius: 10px;   
+}
+
+legend { /* coinmarketcap widget */
+	font-family: helvetica;
 }
