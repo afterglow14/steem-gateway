@@ -1,0 +1,50 @@
+body { /* removing margin of body */
+	margin: 0;
+}
+li.topNav {
+	float: left; /* make the top navigation list to horizontal */
+	list-style-type: none; /* remove bullets, numbers, roman numerals, etc. */
+}
+a.mainTitle {
+	font-family: Helvetica;
+}
+ul.topContainer {
+	overflow: hidden; /* without this code the codes "width: 100%" and "background-color: gray" will not take effect in the container of top navigation */
+	width: 100%;
+	background-color: #4CAF50;
+	padding: 16px 16px 16px 0px;
+}
+li.topNav a.topLink:hover {
+	background-color: white; /* change background color to white when you hover your mouse */
+	color: black; /* change text color to white when you hover your mouse */
+	padding: 16px 16px 16px 16px; 
+}
+.topLink {
+	font-family: helvetica; /* font style of top navigation links */
+	color: white; /* text color of top navigation links */
+	padding: 16px 16px 16px 16px; /* padding of top navigation links */
+}
+p { /* format of all paragraphs */
+	font-family: helvetica;
+	padding-left: 16px;
+}
+/* cryptocurrency prices widget/dashboard */
+.coinmarketcap-currency-widget {
+ width: 25%;
+ margin: 10px 1%;
+ float: left;
+}
+fieldset /* formatting cryptocurrency widget/dashboard */
+{
+   width: 95%; /* width of the whole fieldset */
+   padding:20px; /* padding of fieldset */
+   
+   border:2px solid #4CAF50; /* fieldset border, change px value to change the thickness of the border */
+   /* border:5px solid #ccc; original code */ 
+
+/* codes below are used to format the rounded corners of the fieldset border */
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+-khtml-border-radius: 10px;
+border-radius: 10px;   
+}
